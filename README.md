@@ -69,7 +69,7 @@ To choose CUDA devices change and use `runner.sh` or directly change environment
 ## Run (Windows 64-bit)
 
 - Create a config.json file in miner directory with following structure:
-`{ "node" : "https://127.0.0.1:9052" }`
+`{ "node" : "http://127.0.0.1:9052" }`
 
 To change CUDA devices available to the miner change environment variable `CUDA_VISIBLE_DEVICES` , for example ` set CUDA_VISIBLE_DEVICES="0,1" `
 
